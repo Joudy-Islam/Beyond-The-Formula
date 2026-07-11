@@ -94,31 +94,30 @@
                 <input type="number" id="a1" required />
             </div>
 
-            <div class="uh">
-                <img src="Photos/distance.svg" alt="photo" />
-                <label for="s1">Enter the Displacement (s) in (m) </label>
-                <input type="number" id="s1" required />
-            </div>
+          
             <div class="ansbtn">
                 <button id="sbmtbtn" type="button">
                     <img src="Photos/submit.svg" alt="photo">Submit</button>
             </div>
-    </div>
+    
     </form>
+</div>
 
-
-    <div id="final">
-        <div id="answerTitle">
+    <div id="final" style="display: none;" >
+        <div id="answerTitle" style="display:none"; >
             <img src="Photos/ANS.svg" alt="photo" />
             <h3 id="yay">Answer!</h3>
         </div>
         <h5 id="result"></h5>
+        <div id="line" style="display: none;">
+        <span></span>
+        </div>
         <div id="factTitle" style="display: none;">
             <h5 id="as">Fun Fact About the Equation!</h5>
         </div>
         <p id="info" style="display: none;">
             Did you know that the famous physics equation
-            <strong>s = ut + ½at²</strong> is actually like a time machine in disguise?
+            <strong>s = ut + ½at²</strong> is actually like a time machine in disguise?<br><br>
             Mathematically, it works perfectly backward. If you plug in a negative
             time (-t), it reveals where an object would have been before the chosen
             reference time, assuming constant acceleration.
@@ -133,7 +132,7 @@
         </p>
 
     </div>
-    <script src="motion1.mjs"></script>
+    <script src="motion1.js"></script>
 </body>
 
 </html>

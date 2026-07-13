@@ -71,46 +71,61 @@
         <p class="pp">a = Constant acceleration (m/s²).</p>
     </div>
 
+    <div id="divop">
+        <label for="variable">Select the variable you want to calclate</label>
+        <select name="Select the variable you want to calclate" id="option">
+            <option value="..">..</option>
+            <option value="s">Displacement (s) </option>
+            <option value="u">Initial velocity (u)</option>
+            <option value="t">Time (t)</option>
+            <option value="a">Acceleration (a)</option>
+        </select>
+    </div>
 
-
-    <div id="inputt">
+    <div id="inputt" style="display: none;">
 
         <form>
-            <div class="uh">
+            <div class="uh" id="uu1">
                 <img src="Photos/velocity.svg" alt="velocity">
                 <label for="u1">Enter the Initial velocity (u) in m/s</label>
                 <input type="number" id="u1" required />
             </div>
 
-            <div class="uh">
+            <div class="uh" id="tt1">
                 <img src="Photos/time.svg" alt="photo" />
                 <label for="t1">Enter the Time (t) in seconds</label>
                 <input type="number" id="t1" required />
             </div>
 
-            <div class="uh">
+            <div class="uh" id="accc1">
                 <img src="Photos/acceleration.svg" alt="photo">
                 <label for="a1">Enter the acceleration (a) in (m/s²).</label>
                 <input type="number" id="a1" required />
             </div>
 
-          
+            <div class="uh" id="ss1">
+                <img src="Photos/distance.svg" alt="photo">
+                <label for="d1">Enter the Displacement (s) in (m).</label>
+                <input type="number" id="s1" required />
+            </div>
+
             <div class="ansbtn">
                 <button id="sbmtbtn" type="button">
                     <img src="Photos/submit.svg" alt="photo">Submit</button>
             </div>
-    
-    </form>
-</div>
 
-    <div id="final" style="display: none;" >
-        <div id="answerTitle" style="display:none"; >
+
+        </form>
+    </div>
+
+    <div id="final" style="display: none;">
+        <div id="answerTitle" style="display:none" ;>
             <img src="Photos/ANS.svg" alt="photo" />
             <h3 id="yay">Answer!</h3>
         </div>
         <h5 id="result"></h5>
         <div id="line" style="display: none;">
-        <span></span>
+            <span></span>
         </div>
         <div id="factTitle" style="display: none;">
             <h5 id="as">Fun Fact About the Equation!</h5>
@@ -137,3 +152,8 @@
 
 </html>
 <!--DO NOT FORGET Shift + Alt + F-->
+
+<!-- life will test you again and again there will be days when you feel tired few days when you feel lost 
+ few days when you feel life giving up but hear this clearly you are still here and that means you are stronger than you think
+  your past just not define you your failure do not control you every small step forward matters you don't need to be perfect
+   you just need to keep moving breathe stand up and try again because your story is not over and the best chapter is still ahead. -->

@@ -205,13 +205,50 @@ h2 {
     font-weight: 500;
 }
 
+#divop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    margin: 50px auto;
+width:70%;
+max-width: 1000px;
+height: clamp(130px, 4vw, 200px) ;
+background-color: #D9EAE5;
+flex-direction: column;
+gap: 20px;
+}
+#divop label{
+font-size: 23px;
+color: #142d4c;
+background-color: #9FD3C7;
+font-weight: bold;
+
+}
+select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    object-fit: contain;
+    width:95%;
+    height: clamp(60px, 2vw ,80px);
+    border: 2px solid #142d4c;
+    font-size: 16px;
+    background-color: white;
+    text-align: center;
+    color: #142d4c;
+    
+}
+ 
+
 #inputt {
     display: flex;
     background-color: #D9EAE5;
     justify-content: flex-start;
     align-items: center;
     border-radius: 15px;
-    margin: 10px 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
     margin: 50px auto;
     width: 83%;
@@ -356,25 +393,32 @@ h2 {
     padding: 10px 20px auto;
     display: inline-block;
 }
-#result strong{
-    font-weight:bold;
+
+#result strong {
+    font-weight: bold;
     color: #385170;
 }
+
 #info {
     color: #142d4c;
     font-family: 'Times New Roman', Times, serif;
     font-size: 21px;
 }
-#line{
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 8px;
-margin-top 8px; ;
+
+#line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top 8px;
+    ;
 }
+
 #line span {
-    width:150px;
+    width: 150px;
     height: 4px;
     background-color: #9FD3C7;
     display: block;
 }
+
+/*life will test you again and again there will be days when you feel tired few days when you feel lost few days when you feel life giving up but hear this clearly you are still here and that means you are stronger than you think your past just not define you your failure do not control you every small step forward matters you don't need to be perfect you just need to keep moving breathe stand up and try again because your story is not over and the best chapter is still ahead.*/
